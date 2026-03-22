@@ -2,6 +2,31 @@ h1, p {
     text-align: center;
 }
 
+body {
+    background-color: blue;
+}
+
+.container {
+
+}
+
+.row {
+    margin: 15px;
+    background-color: green;
+}
+
+.row > h1, .row > h2, .row > div > h2 {
+    text-align: center;
+}
+
+.row > div {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
+
 @media print {
     body {
         width: 42cm;
