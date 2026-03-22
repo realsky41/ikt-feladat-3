@@ -3,28 +3,47 @@ h1, p {
 }
 
 body {
-    background-color: blue;
+    background-image: url(bg.png);
+    background-color: rgba(4, 52, 116, 0.8);
+    background-blend-mode: multiply;
+}
+
+div {
+    background-color: green;
 }
 
 .container {
-
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 4px;
+    background: rgb(38, 38, 230);
 }
 
 .row {
     margin: 15px;
-    background-color: green;
+    border-radius: 10px;
+    background-color: rgb(13, 100, 214);
 }
 
 .row > h1, .row > h2, .row > div > h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
+}
+
+div {
+    align-items: center;
 }
 
 .row > div {
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    background-color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(76, 175, 255);
 }
 
 @media print {
