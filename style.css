@@ -2,6 +2,41 @@ h1, p {
     text-align: center;
 }
 
+body {
+    background-color: black;
+}
+
+div {
+    background-color: green;
+}
+
+.container {
+    padding: 4px;
+    background-color: blue;
+}
+
+.row {
+    margin: 15px;
+    background-color: green;
+}
+
+.row > h1, .row > h2, .row > div > h2 {
+    text-align: center;
+}
+
+div {
+    align-items: center;
+}
+
+.row > div {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: red;
+}
+
 @media print {
     body {
         width: 42cm;
